@@ -1,17 +1,22 @@
-# Tweet your brunch
-Tweet your brunch is an example app built with [Brunch](http://brunch.io) &
-[Brunch with Chaplin](https://github.com/paulmillr/brunch-with-chaplin).
+# Tweet your SocketStream and Chaplin
+This is an example app built with [SocketStream](https://github.com/socketstream/socketstream) &
+[Chaplin](https://github.com/chaplinjs/chaplin), forked from [Tweet your brunch](https://github.com/brunch/twitter).
 
 ![](http://brunch.io/images/screenshots/twitter.png)
 
+## Main difference from the brunch version
+* Modified [Chaplin](https://github.com/yiwang/chaplin) to work with SocketStream.
+* [ss-handlebars](https://github.com/yiwang/ss-handlebars) used to replace `template = require` with `template = ss.tmpl` in views.
+* SocketStream style `require` using relative path.
+
+
 ## Getting started
-Clone the repo and run `npm install` & `brunch build`.
-See more info on the [official site](http://brunch.io).
+Clone the repo and run `npm install` & [`nodemon`](https://github.com/remy/nodemon).
 
 ## License
 The MIT license.
 
-Copyright (c) Paul Miller (http://paulmillr.com/)
+Copyright (c) Yi Wang (http://www.yi-wang.me), Paul Miller (http://paulmillr.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
